@@ -1,6 +1,6 @@
 # npmtest-workflow-4-node
 
-#### test coverage for  [workflow-4-node (v0.17.0)](https://github.com/unbornchikken/workflow-4-node)  [![npm package](https://img.shields.io/npm/v/npmtest-workflow-4-node.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-workflow-4-node) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-workflow-4-node.svg)](https://travis-ci.org/npmtest/node-npmtest-workflow-4-node)
+#### basic test coverage for  [workflow-4-node (v0.17.0)](https://github.com/unbornchikken/workflow-4-node)  [![npm package](https://img.shields.io/npm/v/npmtest-workflow-4-node.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-workflow-4-node) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-workflow-4-node.svg)](https://travis-ci.org/npmtest/node-npmtest-workflow-4-node)
 
 #### Workflow 4 Node is a .NET Workflow Foundation like framework for Node.js. The goal is to reach feature equivalence and beyond.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-workflow-4-node/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-workflow-4-node/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-workflow-4-node/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-workflow-4-node/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-workflow-4-node/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-workflow-4-node/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-workflow-4-node/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-workflow-4-node/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-workflow-4-node/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-workflow-4-node/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-workflow-4-node/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-workflow-4-node/build/coverage.html/index.html)
 
@@ -102,7 +102,8 @@
         "test": "mocha tests",
         "test-es5": "mocha tests --old"
     },
-    "version": "0.17.0"
+    "version": "0.17.0",
+    "bin": {}
 }
 ```
 
